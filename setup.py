@@ -12,12 +12,12 @@ setup(
     # Provide either the link to your github or to your website
     url='https://github.com/anirudhganwal06/pgn2bitboard',
     # I explain this later on
-    download_url='https://github.com/anirudhganwal06/pgn2bitboard/archive/v0.1.tar.gz',
+    download_url='https://github.com/anirudhganwal06/pgn2bitboard/archive/v0.2.tar.gz',
     # Keywords that define your package best
     keywords=['pgn', 'bitboard', 'chess', 'chess-engine'],
     install_requires=[            # I get to this in a second
         'numpy',
-        'chess'
+        'python-chess'
     ],
     classifiers=[
         # Chose either "3 - Alpha", "4 - Beta" or "5 - Production/Stable" as the current state of your package
