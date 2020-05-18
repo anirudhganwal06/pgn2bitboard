@@ -5,7 +5,6 @@ import numpy as np
 import chess
 import chess.pgn
 import random
-import h5py
 
 
 def choosePositions(positions, moves, nExcludeStarting=5, nPositions=10):
